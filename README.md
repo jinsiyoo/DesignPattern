@@ -24,32 +24,32 @@
 > 創建型模式是跟物件創立（object creation）的過程有關的模式。
 ( 5 種)
 
-- [x] 工廠模式 *Factory Method Pattern*
-- [x] 生成器模式 *Builder Pattern*
-- [x] 原型模式 *Prototype Pattern*
-- [x] 單例模式 *Singleton Pattern*
-- [x] 抽象工廠 *Abstract Factory Pattern*
+- [ ] 工廠模式 *Factory Method Pattern*
+- [ ] 生成器模式 *Builder Pattern*
+- [ ] 原型模式 *Prototype Pattern*
+- [ ] 單例模式 *Singleton Pattern*
+- [ ] 抽象工廠 *Abstract Factory Pattern*
 
 ### 2. Structural Patterns 結構型模式類
 
 > 結構型模式是跟類別／物件的組成（classes/objects composition）有關的模式。
 ( 7 種)
 
-- [x] 組合模式 *Composite Pattern*
-- [x] 裝飾模式 *Decorator Pattern*
-- [x] 適配器模式 *Adapter Pattern*
-- [x] 代理模式 *Proxy Pattern*
-- [x] 橋接模式 *Bridge Pattern*
-- [x] 外觀模式 *Facade Pattern*
-- [x] 享元模式 *Flyweight Pattern*
+- [ ] 組合模式 *Composite Pattern*
+- [ ] 裝飾模式 *Decorator Pattern*
+- [ ] 適配器模式 *Adapter Pattern*
+- [ ] 代理模式 *Proxy Pattern*
+- [ ] 橋接模式 *Bridge Pattern*
+- [ ] 外觀模式 *Facade Pattern*
+- [ ] 享元模式 *Flyweight Pattern*
 
 ### 3. Behavioural Patterns 行為型模式類
 
 > 行為型模式是跟類別／物件之間的互動與職責分配有關的模式。
 ( 12 種)
 
-- [x] 觀察者模式 *Observer Pattern*
-- [x] 模板方法模式 *Template Method Pattern*
+- [ ] 觀察者模式 *Observer Pattern*
+- [ ] 模板方法模式 *Template Method Pattern*
 - [ ] 策略模式 *Strategy Pattern*
 - [ ] 解釋器模式 *Interpreter Pattern*
 - [ ] 責任鏈模式 *Chain of Responsibility Pattern*
