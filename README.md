@@ -62,7 +62,8 @@
 - [ ] 訪問者模式 *Visitor Pattern*
 
 ---
-# 如何使用 VSCode
+
+## 如何使用 VSCode
 
 ### 安裝 VSCode
 
