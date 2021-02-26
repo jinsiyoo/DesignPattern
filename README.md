@@ -4,7 +4,7 @@
 
 - 個人用來記錄與學習 Design Patten 的練習專案
 - 主要使用的程式語言是 CSharp (C#)
-- 為降低學習門檻本專案使用單純的 Console App 架構執行
+- 為降低學習門檻本專案使用單純的 Console Application 架構執行
 - 盡可能避免引入第三方套件造成理解混亂
 
 ## 設計模式是什麼?
@@ -60,3 +60,34 @@
 - [ ] Null Object Pattern
 - [ ] 狀態模式 *State Pattern*
 - [ ] 訪問者模式 *Visitor Pattern*
+
+---
+# 如何使用 VSCode
+
+### 安裝 VSCode
+
+下載 [Visual Studio Code](https://code.visualstudio.com/download "下載適合您的版本進行安裝")
+
+### 安裝 .NET SDK
+
+本專案使用 [.NET 5.0 SDK](https://dotnet.microsoft.com/download/dotnet/5.0 "下載適合您的版本進行安裝")
+
+> 軟體開發套件 (Software development kit，簡稱 SDK)
+
+### 開始建立專案
+
+1. 啟動 VScode
+2. 選擇 __File -> Open Folder__
+3. 建立新資料夾後，__Select Folder__ 做為專案使用
+4. ``Ctrl + ` `` 顯示 __Terminal__
+5. 建立 Console Application Project
+
+        dotnet new console
+6. 完成專案建立
+
+### 執行專案
+
+1. ``Ctrl + ` `` 顯示 __Terminal__
+2. 執行專案
+
+        dotnet run
