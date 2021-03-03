@@ -24,7 +24,7 @@
 > 創建型模式是跟物件創立（object creation）的過程有關的模式。
 ( 5 種)
 
-- [ ] 工廠模式 *Factory Method Pattern*
+- [x] 工廠模式 *Factory Method Pattern*
 - [ ] 生成器模式 *Builder Pattern*
 - [ ] 原型模式 *Prototype Pattern*
 - [ ] 單例模式 *Singleton Pattern*

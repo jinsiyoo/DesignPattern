@@ -1,4 +1,5 @@
 ﻿using System;
+using Patterns.Creational.FactoryMethod;
 
 namespace design_pattern
 {
@@ -6,7 +7,8 @@ namespace design_pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pattern = new PatternPlayObject();
+            Console.ReadLine();
         }
     }
 }
