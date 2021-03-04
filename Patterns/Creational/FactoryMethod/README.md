@@ -8,7 +8,7 @@
 ## 解決問題？
 
 不需要立即使用建構函式實作物件，且容許不明確的物件，再透過延伸類別來進行延遲實作。
-換言之創建物件之初不必立即實作，先宣告先一個介面，後續再透過工廠方法來實作物件。
+換言之創建物件之初不必立即實作，先宣告介面後續再透過工廠方法來實作物件。
 
 ## 使用工廠模式的成果
 
@@ -47,9 +47,9 @@
 
 ```shell
 Factory made a Chocolate Cake(6 servings).
-Ate a ChocolateCake. 5 servings left. 
-Factory made a Strawberry Cake(8 servings).
-Ate a StrawberryCake. 7 servings left. 
+ChocolateCake's candle has lighted. 
+ChocolateCake's candle has blown. 
+Ate a ChocolateCake. 5 servings left.
 ```
 
 ## 優點
