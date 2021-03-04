@@ -10,19 +10,22 @@ namespace Patterns.Creational.FactoryMethod
             CakeFactory factory = new CakeFactory();
 
             // 蛋糕介面 (不需要呼叫建構函式，也不需要指定明確的類別)
-            ICake cake1, cake2;
+            IBirthdayCake cake;
 
             // 蛋糕工廠實作出一個巧克力蛋糕物件 (延遲至此，由工廠物件來實作巧克力蛋糕物件)
-            cake1 = factory.GetCake(CakeType.Chocolate);
+            cake = factory.GetCake(CakeType.Chocolate);
+
+            // 蠟燭介面
+            ICandle candle = (ICandle)cake;
+            
+            // 點蠟燭
+            candle.LightCandle();
+            
+            // 吹蠟燭
+            candle.BlowOutCandle();
+
             // 吃蛋糕 (使用蛋糕介面來吃一片蛋糕)
-            cake1.EatCake();
-
-            // 蛋糕工廠實作出一個草莓蛋糕物件
-            cake2 = factory.GetCake(CakeType.Strawberry);
-            // 吃蛋糕
-            cake2.EatCake();
-
-
+            cake.EatCake();
         }        
     }
 }

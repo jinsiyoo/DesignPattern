@@ -4,7 +4,7 @@ namespace Patterns.Creational.FactoryMethod
     // 蛋糕工廠
     public class CakeFactory
     {
-        public ICake GetCake(CakeType type)
+        public IBirthdayCake GetCake(CakeType type)
         {
             switch (type)
             {

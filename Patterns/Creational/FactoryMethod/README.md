@@ -5,10 +5,10 @@
 > 什麼是工廠？
 > 用來實作其他物件的物件稱之為工廠。
 
-## 解決什麼問題？
+## 解決問題？
 
 不需要立即使用建構函式實作物件，且容許不明確的物件，再透過延伸類別來進行延遲實作。
-以此例來說：要宣告蛋糕(介面非實體)不必立即實作實體，後續可以透過工廠方法來實作巧克力蛋糕或是草莓蛋糕，實現延遲實作。
+換言之創建物件之初不必立即實作，先宣告先一個介面，後續再透過工廠方法來實作物件。
 
 ## 使用工廠模式的成果
 
@@ -29,13 +29,27 @@
     CakeFactory factory = new CakeFactory();
 
     // 介面 (不需要呼叫建構函式，也不需要指定明確的類別)
-    ICake cake;
+    IBirthdayCake cake;
 
     // 延遲實作，工廠實作物件
     cake = factory.GetCake(CakeType.Chocolate);
 
     // 吃蛋糕
     cake.EatCake();
+```
+
+> 顧客進入蛋糕店 (CakeFactoey) 想買生日蛋糕 (ICake) 回家慶祝家人生日。
+> 店員知道來由後，提供顧客一本蛋糕型錄 (CakeType)。
+> 顧客參考目錄以後，決定購買 (GetCake) 巧克力蛋糕作為生日蛋糕。
+> 此時蛋糕店的蛋糕師傅製作巧克力蛋糕送到顧客手上，顧客拿回家和人享用蛋糕 (EatCake)。
+
+### 輸出結果
+
+```shell
+Factory made a Chocolate Cake(6 servings).
+Ate a ChocolateCake. 5 servings left. 
+Factory made a Strawberry Cake(8 servings).
+Ate a StrawberryCake. 7 servings left. 
 ```
 
 ## 優點
