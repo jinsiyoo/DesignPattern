@@ -13,7 +13,7 @@
 
 ## 設計模式的分類?
 
-根據 Gang of Four(GoF) 出版 *Design Patterns - Elements of Reusable Object-Oriented Software* 一書，收錄 23 種設計模式，依照應用可以分成三類：
+根據 Gang of Four(GoF) 出版 *[Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns) - Elements of Reusable Object-Oriented Software* 一書，收錄 23 種設計模式，依照應用可以分成三類：
 
 1. 創建型模式 Creational Patterns
 2. 結構型模式 Structural Patterns
