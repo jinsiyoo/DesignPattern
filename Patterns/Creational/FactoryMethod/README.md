@@ -25,19 +25,29 @@
 使用工廠模式：
 
 ```csharp
-    // 工廠
+    // 實作蛋糕工廠物件
     CakeFactory factory = new CakeFactory();
 
-    // 介面 (不需要呼叫建構函式，也不需要指定明確的類別)
+    // 蛋糕介面 (不需要呼叫建構函式，也不需要指定明確的類別)
     IBirthdayCake cake;
 
-    // 延遲實作，工廠實作物件
+    // 蛋糕工廠實作出一個巧克力蛋糕物件 (延遲至此，由工廠物件來實作巧克力蛋糕物件)
     cake = factory.GetCake(CakeType.Chocolate);
 
-    // 吃蛋糕
+    // 蠟燭介面
+    ICandle candle = (ICandle)cake;
+    
+    // 點蠟燭
+    candle.LightCandle();
+    
+    // 吹蠟燭
+    candle.BlowOutCandle();
+
+    // 吃蛋糕 (使用蛋糕介面來吃一片蛋糕)
     cake.EatCake();
 ```
 
+> 情境說明：
 > 顧客進入蛋糕店 (CakeFactoey) 想買生日蛋糕 (ICake) 回家慶祝家人生日。
 > 店員知道來由後，提供顧客一本蛋糕型錄 (CakeType)。
 > 顧客參考目錄以後，決定購買 (GetCake) 巧克力蛋糕作為生日蛋糕。
