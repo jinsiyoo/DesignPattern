@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Creational.FactoryMethod;
+using Patterns.Creational.Builder;
 
 namespace design_pattern
 {
@@ -7,7 +7,7 @@ namespace design_pattern
     {
         static void Main(string[] args)
         {
-            var pattern = new PatternPlayObject();
+            var pattern = new Tester();
             Console.ReadLine();
         }
     }

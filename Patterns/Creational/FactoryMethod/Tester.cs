@@ -1,8 +1,8 @@
 namespace Patterns.Creational.FactoryMethod
 {
-    public class PatternPlayObject
+    public class Tester
     {
-        public PatternPlayObject(){
+        public Tester(){
 
             /* 簡單工廠模式 */
 
