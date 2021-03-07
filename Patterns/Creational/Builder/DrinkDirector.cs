@@ -1,7 +1,7 @@
 namespace Patterns.Creational.Builder
 {
 
-    class Bartender
+    class DrinkDirector
     {
         private IDrinkBuilder builder;
 

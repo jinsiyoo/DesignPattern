@@ -5,7 +5,7 @@
 > 什麼是工廠？
 > 用來實作其他物件的物件稱之為工廠。
 
-## 解決問題？
+## 解決何種問題？
 
 不需要立即使用建構函式實作物件，且容許不明確的物件，再透過延伸類別來進行延遲實作。
 換言之創建物件之初不必立即實作，先宣告介面後續再透過工廠方法來實作物件。
@@ -73,7 +73,7 @@ Ate a ChocolateCake. 5 servings left.
 
 ## UML
 
-[![UML](/Patterns/Creational/FactoryMethod/images/W3sDesign_Factory_Method_Design_Pattern_UML.jpg "W3sDesign_Factory_Method_Design_Pattern_UML")](https://en.wikipedia.org/wiki/Factory_method_pattern#/media/File:W3sDesign_Factory_Method_Design_Pattern_UML.jpg)
+[![UML](\../../../images/W3sDesign_Factory_Method_Design_Pattern_UML.jpg "W3sDesign_Factory_Method_Design_Pattern_UML")](https://en.wikipedia.org/wiki/Factory_method_pattern#/media/File:W3sDesign_Factory_Method_Design_Pattern_UML.jpg)
 
 ## 如何使用？
 
