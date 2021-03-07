@@ -53,12 +53,12 @@
 ```
 
 > 不管你要點哪一種調酒，你都不需要知道製作的過程。調酒師會遵循一套標準的流程，為你製作調酒。
-> 另外如果要調整或是增加品項，都不需要修改到調酒師(Bartender)這個類別。
+> 另外如果要調整或是增加品項，都不需要修改到調酒師(DrinkDirector)這個類別。
 > 除非修改調酒這套標準流程，但也比之前容易許多 (每一個實作調酒的程式都要修改)。
 
 ### 輸出結果
 
-```shell
+```text
 Get a old fashion glass.
 Add whiskey, Angostura bitters, sugar, ice and lemon-peel.
 Mix with small bar-spoon.

@@ -55,7 +55,7 @@
 
 ### 輸出結果
 
-```shell
+```text
 Factory made a Chocolate Cake(6 servings).
 ChocolateCake's candle has lighted. 
 ChocolateCake's candle has blown. 
