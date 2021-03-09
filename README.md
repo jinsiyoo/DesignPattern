@@ -26,7 +26,7 @@
 
 - [x] [工廠模式 *Factory Method Pattern*](/Patterns/Creational/FactoryMethod/README.md)
 - [x] [生成器模式 *Builder Pattern*](/Patterns/Creational/Builder/README.md)
-- [x] [原型模式 *Prototype Pattern*] (/Patterns/Creational/Prototype/README.md)
+- [x] [原型模式 *Prototype Pattern*](/Patterns/Creational/Prototype/README.md)
 - [ ] 單例模式 *Singleton Pattern*
 - [ ] 抽象工廠 *Abstract Factory Pattern*
 
