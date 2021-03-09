@@ -5,7 +5,7 @@ namespace design_pattern
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var pattern = new Tester();
             Console.ReadLine();

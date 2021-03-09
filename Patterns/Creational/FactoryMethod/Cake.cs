@@ -66,12 +66,12 @@ namespace Patterns.Creational.FactoryMethod
             Console.WriteLine($"Ate a StrawberryCake. { Servings } servings left. ");
         }
 
-        public void LightCandle()
+        public static void LightCandle()
         {
             Console.WriteLine($"StrawberryCake's candle has lighted. ");
         }
 
-        public void BlowOutCandle()
+        public static void BlowOutCandle()
         {
             Console.WriteLine($"StrawberryCake's candle has blown. ");
         }

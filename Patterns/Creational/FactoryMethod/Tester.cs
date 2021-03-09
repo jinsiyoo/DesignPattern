@@ -7,7 +7,7 @@ namespace Patterns.Creational.FactoryMethod
             /* 簡單工廠模式 */
 
             // 實作蛋糕工廠物件
-            CakeFactory factory = new CakeFactory();
+            var factory = new CakeFactory();
 
             // 蛋糕介面 (不需要呼叫建構函式，也不需要指定明確的類別)
             IBirthdayCake cake;

@@ -5,7 +5,7 @@ namespace Patterns.Creational.Builder
         public Tester()
         {
             // 實作調酒師(主導者)
-            DrinkDirector bartender = new DrinkDirector();
+            var bartender = new DrinkDirector();
             
             // 跟調酒師點一杯古典雞尾酒
             bartender.GetOrder(new OldFashion());
