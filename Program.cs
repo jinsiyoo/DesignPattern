@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Creational.Builder;
+using Patterns.Creational.Prototype;
 
 namespace design_pattern
 {
